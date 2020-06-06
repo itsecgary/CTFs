@@ -19,5 +19,5 @@ Looking at the HTML, we don't see anything useful besides the CSS class used
 for the flag. Going to the CSS reveals many classes. With a quick CTRL-F ->
 CTRL-C -> CTRL-V, we can find out class, which then gives us the flag.
 
-###Flag
+## Flag
 flag{glasses_are_useful}
