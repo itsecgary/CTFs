@@ -4,12 +4,12 @@
 **Points:** Can't remember
 
 **Description:**
-> Link: https://drive.google.com/open?id=1g0j7rm53lU7ZRBM8XgkPkFpUgsfXpjfi
+> **Link:** https://drive.google.com/open?id=1g0j7rm53lU7ZRBM8XgkPkFpUgsfXpjfi
 >
-> Files given:
-> System.map-5.3.0-18-generic
-> module.dwarf
-> lubuntu-Snapshot2.vmem
+> **Files given:**
+> **1.** System.map-5.3.0-18-generic
+> **2.** module.dwarf
+> **3.** lubuntu-Snapshot2.vmem
 
 ## Writeup
 I didn't really know what to do with this at first because I was unfamiliar
@@ -41,7 +41,7 @@ My profile name is LinuxUbuntu_4_4_0-17763-Microsoft_profilex64
 
 5. You can figure out what you can get out of the memory by running:
 ```
-   "python ./vol.py --info | grep -i linux_".
+python ./vol.py --info | grep -i linux_
 ```
 We see that we can see the bash command history with linux_bash
 
@@ -69,7 +69,10 @@ terminal and ended up getting the flag: UMDCTF-{Jarred_Sh0ulD_HaV3_L0ck3d_H1s_CO
 UMDCTF-{Jarred_Sh0ulD_HaV3_L0ck3d_H1s_COmpu7er}
 
 ## Resources
-https://www.linkedin.com/pulse/linux-memory-analysis-how-start-what-you-need-know-james-bower/
-https://github.com/volatilityfoundation/volatility/wiki/Linux
-https://resources.infosecinstitute.com/memory-forensics-and-analysis-using-volatility/#gref
-https://www.andreafortuna.org/2019/08/22/how-to-generate-a-volatility-profile-for-a-linux-system/
+- https://www.linkedin.com/pulse/linux-memory-analysis-how-start-what-you-need-know-james-bower/
+
+- https://github.com/volatilityfoundation/volatility/wiki/Linux
+
+- https://resources.infosecinstitute.com/memory-forensics-and-analysis-using-volatility/#gref
+
+- https://www.andreafortuna.org/2019/08/22/how-to-generate-a-volatility-profile-for-a-linux-system/
