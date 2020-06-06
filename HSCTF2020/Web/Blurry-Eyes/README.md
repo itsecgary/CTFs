@@ -1,12 +1,11 @@
 ## Blurry Eyes
-**Category:** Web 
+**Category:** Web
 
-**Points:** 
+**Points:** 100
 
-**Description:** 
-
-> I can't see :( 
-
-> https://blurry-eyes.web.hsctf.com 
-
-> Author: meow \n
+**Description:**
+> I can't see :(
+>
+> https://blurry-eyes.web.hsctf.com
+>
+> Author: meow
