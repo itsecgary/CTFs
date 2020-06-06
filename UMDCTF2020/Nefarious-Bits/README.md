@@ -4,18 +4,17 @@
 **Points:** Can't remember
 
 **Description:**
-> This challenge was under the forensics section of the competition.
-> Author: t0pc4r
+> **Author:** t0pc4r
 >
-> Hint: "After being exposed to some solar radiation, it looks like
+> **Hint:** "After being exposed to some solar radiation, it looks like
 >	   some bits have turned bad. It is your job to figure out
 >	   what they are trying to say."
 >
-> Note: "Do not attempt to communicate with or contact any of
+> **Note:** "Do not attempt to communicate with or contact any of
 >       the IP addresses mentioned in the challenge. The challenge
 >	      can and should be solved statically."
 >
-> Given: Pcap file "attack.pcap"
+> **Given:** Pcap file "attack.pcap"
 
 ## Writeup
 When I opened the pcap file, there wasn't much to look at. Pretty much
