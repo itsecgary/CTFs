@@ -89,7 +89,7 @@ No errors detected in mogodb (33 chunks, 84.0% compression).
 No errors detected! Nice! Now let's open the PNG up (don't forget to add the
 .png extension).
 
-![Image of Hex](https://github.com/itsecgary/CTFs/tree/master/HSCTF2020/Forensics/Picture-Lab-Activity-10/mogodb.png)
+![Image of Flag](https://github.com/itsecgary/CTFs/blob/master/HSCTF2020/Forensics/Picture-Lab-Activity-10/mogodb.png)
 
 Seems to be some meme lol, but we get the flag here.
 
