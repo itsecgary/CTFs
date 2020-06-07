@@ -1,7 +1,7 @@
 # Nefarious Bits
 **Category:** Forensics
 
-**Points:** Can't remember
+**Points:** ???
 
 **Description:**
 > **Author:** t0pc4r
@@ -44,4 +44,4 @@ out the binary for this pcap. See script "nefarious.py"
 UMDCTF-{3vil_b1ts_@r3_4lw4ys_3vi1}
 
 ## Resources
-https://en.wikipedia.org/wiki/Evil_bit
+- https://en.wikipedia.org/wiki/Evil_bit

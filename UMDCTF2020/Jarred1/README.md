@@ -1,14 +1,17 @@
 # Jarred1
 **Category:** Forensics
 
-**Points:** Can't remember
+**Points:** ???
 
 **Description:**
 > **Link:** https://drive.google.com/open?id=1g0j7rm53lU7ZRBM8XgkPkFpUgsfXpjfi
 >
 > **Files given:**
+
 > **1.** System.map-5.3.0-18-generic
+>
 > **2.** module.dwarf
+>
 > **3.** lubuntu-Snapshot2.vmem
 
 ## Writeup
