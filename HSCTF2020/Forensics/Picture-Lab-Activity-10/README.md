@@ -28,7 +28,7 @@ have an extension is run the **file** command on linux or open it up in **HxD**.
 Taking a look at the "mogodb" file in **HxD**, we see that
 there isn't any appropriate header for any specific file format.
 
-![Image of Hex](https://github.com/itsecgary/CTFs/tree/master/HSCTF2020/Forensics/Picture-Lab-Activity-10/hex.png)
+![Image of Hex](https://github.com/itsecgary/CTFs/blob/master/HSCTF2020/Forensics/Picture-Lab-Activity-10/hex.PNG)
 
 Now, since we are assuming this is a PNG, we can put the appropriate file header
 and footer:
@@ -90,6 +90,8 @@ No errors detected! Nice! Now let's open the PNG up (don't forget to add the
 .png extension).
 
 ![Image of Hex](https://github.com/itsecgary/CTFs/tree/master/HSCTF2020/Forensics/Picture-Lab-Activity-10/mogodb.png)
+
+Seems to be some meme lol, but we get the flag here.
 
 ## Flag
 flag{and_y0u_th0ught_p1ctur3_l4b_was_h4rd}
