@@ -49,4 +49,4 @@ UMDCTF-{l0v3-me_s0meh3x}
 ## Resources
 - https://www.guru99.com/reading-and-writing-files-in-python.html
 
--https://mh-nexus.de/en/hxd/
+- https://mh-nexus.de/en/hxd/
