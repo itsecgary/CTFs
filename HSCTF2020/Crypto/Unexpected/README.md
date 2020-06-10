@@ -55,7 +55,7 @@ implementations on how I got P, Q, and R, but I will include them in my script.
 Since we had the P's, Q's, N's, C's, and E for all three parts, all we have to
 do is find the decryption key (D), which found by modular arithmetic:
 
-<img src="https://render.githubusercontent.com/render/math?math=\lambda(N)= lcm(P, Q)">
+<img src="https://render.githubusercontent.com/render/math?math=\large\lambda(N)= lcm(P, Q)">
 <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/0cfb326fe7911a816ba3afecf0b4d469c48e9095">
 
 In my script, I copied and pasted a few functions to help find the modular inverse.
