@@ -17,32 +17,35 @@ twisted version of RSA. If you are unfamiliar with RSA, hang on because this
 isn't too easy if you don't understand it yet. I encourage you to read the Wiki
 I put in the resources as well as other websites giving examples.
 
+
 Basically, RSA usually has an **N = P*Q**, but this is a little different. We
 have three different ciphertexts and three different N's to deal with.
+
 
 So I am assuming that the following below matches respectively to the .txt file
 given.
 
-<img src="https://render.githubusercontent.com/render/math?math=N_{1} = P \cdot Q">
+<img src="https://render.githubusercontent.com/render/math?math=\large N_{1} = P \cdot Q">
 
-<img src="https://render.githubusercontent.com/render/math?math=N_{2} = Q \cdot R">
+<img src="https://render.githubusercontent.com/render/math?math=\large N_{2} = Q \cdot R">
 
-<img src="https://render.githubusercontent.com/render/math?math=N_{3} = P \cdot R">
+<img src="https://render.githubusercontent.com/render/math?math=\large N_{3} = P \cdot R">
+
 
 Since we have three equations and three knowns, we can probably work this out.
 Here's the math:
 
-<img src="https://render.githubusercontent.com/render/math?math=Q = \frac{N_{2}}{R}">
+<img src="https://render.githubusercontent.com/render/math?math=\large Q = \frac{N_{2}}{R}">
 
-<img src="https://render.githubusercontent.com/render/math?math=P = \frac{N_{3}}{R}">
+<img src="https://render.githubusercontent.com/render/math?math=\large P = \frac{N_{3}}{R}">
 
-<img src="https://render.githubusercontent.com/render/math?math=N_{1} = \frac{N_{3}}{R} \cdot \frac{N_{2}}{R}">
+<img src="https://render.githubusercontent.com/render/math?math=\large N_{1} = \frac{N_{3}}{R} \cdot \frac{N_{2}}{R}">
 
-<img src="https://render.githubusercontent.com/render/math?math=N_{1} = \frac{N_{3} \cdot N_{2}}{R^2}">
+<img src="https://render.githubusercontent.com/render/math?math=\large N_{1} = \frac{N_{3} \cdot N_{2}}{R^2}">
 
-<img src="https://render.githubusercontent.com/render/math?math=R^2 = \frac{N_{3} \cdot N_{2}}{N_{1}}">
+<img src="https://render.githubusercontent.com/render/math?math=\large R^2 = \frac{N_{3} \cdot N_{2}}{N_{1}}">
 
-<img src="https://render.githubusercontent.com/render/math?math=R = \sqrt{\frac{N_{3} \cdot N_{2}}{N_{1}}}">
+<img src="https://render.githubusercontent.com/render/math?math=\large R = \sqrt{\frac{N_{3} \cdot N_{2}}{N_{1}}}">
 
 
 Following these steps to isolate P and Q can give us similar answers. You also
@@ -52,7 +55,17 @@ I fiddled around with the math in **Wolfram Alpha** and Python to get the exact
 P, Q, and R. I had troubles formatting in Python for a while, so I don't have my
 implementations on how I got P, Q, and R, but I will include them in my script.
 
-Here is the output to my script:
+Since we had the P's, Q's, N's, C's, and E for all three parts, all we have to
+do is find the decryption key (D), which found by modular arithmetic:
+
+<img src="https://render.githubusercontent.com/render/math?math=\large\lambda(N)= lcm(P, Q)">
+<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/0cfb326fe7911a816ba3afecf0b4d469c48e9095">
+
+
+In my script, I copied and pasted a few functions to help find the modular inverse.
+
+
+**Here is the output to my script:**
 ```
 -----------------------------------------------------------------------------------------------------------------
 phi: 3895738302299059518129198422310169628530536557191890566210939781698372336257482186582163630847612416277492034959243510457939210010336159061758606919109259916143600981918456942199762738624796190838889500238780675229383463267807384154074134251073572174392024892486431125499446924573006208711810847272390619510267715478341382535579105584675673997982203778973283813503737131926142658191419941161164257547319794943883811280878885096660672763345495601914053572772464688944398278968911503771601753848356268487278305957060424301523898709351034955902146951194283368812207947125965045248566943026323694697043787381033801270628
@@ -73,6 +86,8 @@ flag 3: h_inquisiti0n!}
 flag{n0_0n3_3xp3ct5_th3_sp4nish_inquisiti0n!}
 
 ## Resources
-- https://en.wikipedia.org/wiki/RSA_(cryptosystem)
+RSA Info: https://en.wikipedia.org/wiki/RSA_(cryptosystem)
 
-- https://www.wolframalpha.com/
+LCM and GCD functions: https://gist.github.com/endolith/114336/eff2dc13535f139d0d6a2db68597fad2826b53c3
+
+Wolfram Alpha: https://www.wolframalpha.com/
