@@ -19,6 +19,8 @@
 > Sincerely,
 >
 > AC/PMP/JC
+>
+> **Given:** mogodb & PictureLabStudentGuide.pdf
 
 ## Writeup
 The PDF doesn't give us much information besides the big hint that this file is
