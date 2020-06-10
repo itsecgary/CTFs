@@ -23,11 +23,11 @@ have three different ciphertexts and three different N's to deal with.
 So I am assuming that the following below matches respectively to the .txt file
 given.
 
-<img src="https://render.githubusercontent.com/render/math?math=N_{1} = P \cdot Q">
+<img src="https://render.githubusercontent.com/render/math?math=\large N_{1} = P \cdot Q">
 
-<img src="https://render.githubusercontent.com/render/math?math=N_{2} = Q \cdot R">
+<img src="https://render.githubusercontent.com/render/math?math=\large N_{2} = Q \cdot R">
 
-<img src="https://render.githubusercontent.com/render/math?math=N_{3} = P \cdot R">
+<img src="https://render.githubusercontent.com/render/math?math=\large N_{3} = P \cdot R">
 
 Since we have three equations and three knowns, we can probably work this out.
 Here's the math:
