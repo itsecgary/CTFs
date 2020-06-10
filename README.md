@@ -1,8 +1,8 @@
 # Capture The Flag
 
 ## 2020
-- UMDCTF
-- HSCTF
+- UMDCTF (121st)
+- HSCTF (124th)
 
 #### Formatting
 General: https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax
