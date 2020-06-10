@@ -32,17 +32,17 @@ given.
 Since we have three equations and three knowns, we can probably work this out.
 Here's the math:
 
-<img src="https://render.githubusercontent.com/render/math?math=Q = \frac{N_{2}}{R}">
+<img src="https://render.githubusercontent.com/render/math?math=\large Q = \frac{N_{2}}{R}">
 
-<img src="https://render.githubusercontent.com/render/math?math=P = \frac{N_{3}}{R}">
+<img src="https://render.githubusercontent.com/render/math?math=\large P = \frac{N_{3}}{R}">
 
-<img src="https://render.githubusercontent.com/render/math?math=N_{1} = \frac{N_{3}}{R} \cdot \frac{N_{2}}{R}">
+<img src="https://render.githubusercontent.com/render/math?math=\large N_{1} = \frac{N_{3}}{R} \cdot \frac{N_{2}}{R}">
 
-<img src="https://render.githubusercontent.com/render/math?math=N_{1} = \frac{N_{3} \cdot N_{2}}{R^2}">
+<img src="https://render.githubusercontent.com/render/math?math=\large N_{1} = \frac{N_{3} \cdot N_{2}}{R^2}">
 
-<img src="https://render.githubusercontent.com/render/math?math=R^2 = \frac{N_{3} \cdot N_{2}}{N_{1}}">
+<img src="https://render.githubusercontent.com/render/math?math=\large R^2 = \frac{N_{3} \cdot N_{2}}{N_{1}}">
 
-<img src="https://render.githubusercontent.com/render/math?math=R = \sqrt{\frac{N_{3} \cdot N_{2}}{N_{1}}}">
+<img src="https://render.githubusercontent.com/render/math?math=\large R = \sqrt{\frac{N_{3} \cdot N_{2}}{N_{1}}}">
 
 
 Following these steps to isolate P and Q can give us similar answers. You also
