@@ -52,6 +52,14 @@ I fiddled around with the math in **Wolfram Alpha** and Python to get the exact
 P, Q, and R. I had troubles formatting in Python for a while, so I don't have my
 implementations on how I got P, Q, and R, but I will include them in my script.
 
+Since we had the P's, Q's, N's, C's, and E for all three parts, all we have to
+do is find the decryption key (D), which found by modular arithmetic:
+
+<img src="https://render.githubusercontent.com/render/math?math=\lambda(N)= lcm(P, Q)">
+<img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/0cfb326fe7911a816ba3afecf0b4d469c48e9095">
+
+In my script, I copied and pasted a few functions to help find the modular inverse.
+
 Here is the output to my script:
 ```
 -----------------------------------------------------------------------------------------------------------------
@@ -73,6 +81,8 @@ flag 3: h_inquisiti0n!}
 flag{n0_0n3_3xp3ct5_th3_sp4nish_inquisiti0n!}
 
 ## Resources
-- https://en.wikipedia.org/wiki/RSA_(cryptosystem)
+RSA Info: https://en.wikipedia.org/wiki/RSA_(cryptosystem)
 
-- https://www.wolframalpha.com/
+LCM and GCD functions: https://gist.github.com/endolith/114336/eff2dc13535f139d0d6a2db68597fad2826b53c3
+
+Wolfram Alpha: https://www.wolframalpha.com/
