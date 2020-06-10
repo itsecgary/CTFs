@@ -32,9 +32,9 @@ given.
 Since we have three equations and three knowns, we can probably work this out.
 Here's the math:
 
-<img src="https://render.githubusercontent.com/render/math?math=Q = \frac{N_{2}}{R}"">
+<img src="https://render.githubusercontent.com/render/math?math=Q = \frac{N_{2}}{R}">
 
-<img src="https://render.githubusercontent.com/render/math?math=P = \frac{N_{3}}{R}"">
+<img src="https://render.githubusercontent.com/render/math?math=P = \frac{N_{3}}{R}">
 
 <img src="https://render.githubusercontent.com/render/math?math=N_{1} = \frac{N_{3}}{R} \cdot \frac{N_{2}}{R}">
 
@@ -46,8 +46,11 @@ Here's the math:
 
 
 Following these steps to isolate P and Q can give us similar answers. You also
-could divide the appropriate N by R
+could divide the second N by R to get Q and the third N by R to get P.
 
+I fiddled around with the math in **Wolfram Alpha** and Python to get the exact
+P, Q, and R. I had troubles formatting in Python for a while, so I don't have my
+implementations on how I got P, Q, and R, but I will include them in my script.
 
 Here is the output to my script:
 ```
