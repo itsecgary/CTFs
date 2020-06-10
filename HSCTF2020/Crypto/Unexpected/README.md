@@ -22,22 +22,28 @@ have three different ciphertexts and three different N's to deal with.
 
 So I am assuming that the following below matches respectively to the .txt file
 given.
+
 <img src="https://render.githubusercontent.com/render/math?math=N_{1} = P \cdot Q">
+
 <img src="https://render.githubusercontent.com/render/math?math=N_{2} = Q \cdot R">
+
 <img src="https://render.githubusercontent.com/render/math?math=N_{3} = P \cdot R">
 
 Since we have three equations and three knowns, we can probably work this out.
 Here's the math:
 
+<img src="https://render.githubusercontent.com/render/math?math=Q = \frac{N_{2}}{R}"">
 
-*Q = N2/R*
-*P = N3/R*
-N<sub>1</sub> = (N<sub>3<>/R) x (N2/R)
-N1 = (N3*N2)/(R*R)
-R^2 = (N3*N2)/N1
+<img src="https://render.githubusercontent.com/render/math?math=P = \frac{N_{3}}{R}"">
 
-R = sqrt((N3*N2)/N1)
-*
+<img src="https://render.githubusercontent.com/render/math?math=N_{1} = \frac{N_{3}}{R} \cdot \frac{N_{2}}{R}">
+
+<img src="https://render.githubusercontent.com/render/math?math=N_{1} = \frac{N_{3} \cdot N_{2}}{R^2}">
+
+<img src="https://render.githubusercontent.com/render/math?math=R^2 = \frac{N_{3} \cdot N_{2}}{N_{1}}">
+
+<img src="https://render.githubusercontent.com/render/math?math=R = \sqrt{\frac{N_{3} \cdot N_{2}}{N_{1}}}">
+
 
 Following these steps to isolate P and Q can give us similar answers. You also
 could divide the appropriate N by R
