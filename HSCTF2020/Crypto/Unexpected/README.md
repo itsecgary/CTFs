@@ -17,8 +17,10 @@ twisted version of RSA. If you are unfamiliar with RSA, hang on because this
 isn't too easy if you don't understand it yet. I encourage you to read the Wiki
 I put in the resources as well as other websites giving examples.
 
+
 Basically, RSA usually has an **N = P*Q**, but this is a little different. We
 have three different ciphertexts and three different N's to deal with.
+
 
 So I am assuming that the following below matches respectively to the .txt file
 given.
@@ -28,6 +30,7 @@ given.
 <img src="https://render.githubusercontent.com/render/math?math=\large N_{2} = Q \cdot R">
 
 <img src="https://render.githubusercontent.com/render/math?math=\large N_{3} = P \cdot R">
+
 
 Since we have three equations and three knowns, we can probably work this out.
 Here's the math:
@@ -58,9 +61,11 @@ do is find the decryption key (D), which found by modular arithmetic:
 <img src="https://render.githubusercontent.com/render/math?math=\large\lambda(N)= lcm(P, Q)">
 <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/0cfb326fe7911a816ba3afecf0b4d469c48e9095">
 
+
 In my script, I copied and pasted a few functions to help find the modular inverse.
 
-Here is the output to my script:
+
+**Here is the output to my script:**
 ```
 -----------------------------------------------------------------------------------------------------------------
 phi: 3895738302299059518129198422310169628530536557191890566210939781698372336257482186582163630847612416277492034959243510457939210010336159061758606919109259916143600981918456942199762738624796190838889500238780675229383463267807384154074134251073572174392024892486431125499446924573006208711810847272390619510267715478341382535579105584675673997982203778973283813503737131926142658191419941161164257547319794943883811280878885096660672763345495601914053572772464688944398278968911503771601753848356268487278305957060424301523898709351034955902146951194283368812207947125965045248566943026323694697043787381033801270628
