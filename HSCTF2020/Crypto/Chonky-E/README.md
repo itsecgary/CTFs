@@ -110,7 +110,7 @@ decryption key and uses it on the cipher text:
 ```
 
 ## Flag
-flag{}
+flag{remarkably_superb_acronym}
 
 ## Resources
 - https://en.wikipedia.org/wiki/Schmidt-Samoa_cryptosystem
