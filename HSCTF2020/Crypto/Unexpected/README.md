@@ -14,25 +14,33 @@
 ## Writeup
 From the description and the text file given, we can see that this is some
 twisted version of RSA. If you are unfamiliar with RSA, hang on because this
-aint too easy if you don't understand it yet. I encourage you to read the Wiki
+isn't too easy if you don't understand it yet. I encourage you to read the Wiki
 I put in the resources as well as other websites giving examples.
 
-Basically, RSA usually has an **N = P*Q**, but this is a littler different. We
+Basically, RSA usually has an **N = P*Q**, but this is a little different. We
 have three different ciphertexts and three different N's to deal with.
 
 So I am assuming that the following below matches respectively to the .txt file
 given.
-```
-N1 = P*Q
-N2 = Q*R
-N3 = P*R
-```
+<img src="https://render.githubusercontent.com/render/math?math=N_{1} = P \cdot Q">
+<img src="https://render.githubusercontent.com/render/math?math=N_{2} = Q \cdot R">
+<img src="https://render.githubusercontent.com/render/math?math=N_{3} = P \cdot R">
 
 Since we have three equations and three knowns, we can probably work this out.
 Here's the math:
-```
 
-```
+
+*Q = N2/R*
+*P = N3/R*
+N<sub>1</sub> = (N<sub>3<>/R) x (N2/R)
+N1 = (N3*N2)/(R*R)
+R^2 = (N3*N2)/N1
+
+R = sqrt((N3*N2)/N1)
+*
+
+Following these steps to isolate P and Q can give us similar answers. You also
+could divide the appropriate N by R
 
 
 Here is the output to my script:
