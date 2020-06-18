@@ -29,7 +29,103 @@ nmap -sC -sV -p- hackit.zh3r0.ml
 
 **Output:**
 ```
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-06-18 09:25 Eastern Daylight Time
+Nmap scan report for 139.59.3.42
+Host is up (0.27s latency).
+Not shown: 65530 closed ports
+PORT      STATE    SERVICE  VERSION
+22/tcp    open     http     PHP cli server 5.5 or later
+|_http-title: Site doesn't have a title (text/html; charset=UTF-8).
+|_ssh-hostkey: ERROR: Script execution failed (use -d to debug)
 
+99/tcp    open     ssh      OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey:
+|   2048 70:78:8f:70:79:59:72:5f:05:c9:2a:63:b4:34:c1:52 (RSA)
+|   256 08:6d:42:16:2a:47:ae:b4:d7:fa:35:28:91:67:ab:63 (ECDSA)
+|_  256 e4:89:6b:09:37:64:c2:47:01:bd:c2:32:d8:cd:06:2d (ED25519)
+
+324/tcp   open     ftp      vsftpd 3.0.3
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_-rw-r--r--    1 ftp      ftp            22 Jun 18 09:06 test.txt
+| ftp-syst:
+|   STAT:
+| FTP server status:
+|      Connected to ::ffff:173.120.119.45
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 2
+|      vsFTPd 3.0.3 - secure, fast, stable
+|_End of status
+
+4994/tcp  open     unknown
+| fingerprint-strings:
+|   GenericLines, GetRequest, HTTPOptions:
+|     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+|     ||Employee Entry||
+|     ----------------------------------------------------------
+|     Sherlock Holmes Inc.
+|     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+|     Here's a free flag for you, just for finding this door! Flag 1: zh3r0{pr05_d0_full_sc4n5}
+|     Heyo, Watcha looking at? Employee ID yoo! :
+|     away kiddo, huh, Kids these days!
+|   NULL:
+|     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+|     ||Employee Entry||
+|     ----------------------------------------------------------
+|     Sherlock Holmes Inc.
+|     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+|     Here's a free flag for you, just for finding this door! Flag 1: zh3r0{pr05_d0_full_sc4n5}
+|_    Heyo, Watcha looking at? Employee ID yoo! :
+
+11211/tcp filtered memcache
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port4994-TCP:V=7.80%I=7%D=6/18%Time=5EEB6FE7%P=i686-pc-windows-windows%
+SF:r(NULL,18C,"\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+SF:~\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\|\|Employee\x20Entry\|\|\n\n--------------------------
+SF:--------------------------------\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Sherlock\x20Holmes\x20In
+SF:c\.\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nHere's
+SF:\x20a\x20free\x20flag\x20for\x20you,\x20just\x20for\x20finding\x20this\
+SF:x20door!\x20Flag\x201:\x20zh3r0{pr05_d0_full_sc4n5}\nHeyo,\x20Watcha\x2
+SF:0looking\x20at\?\x20Employee\x20ID\x20yoo!\x20:\x20\n")%r(GenericLines,
+SF:1B1,"\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x
+SF:0\x20\x20\|\|Employee\x20Entry\|\|\n\n---------------------------------
+SF:-------------------------\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Sherlock\x20Holmes\x20Inc\.\n~~
+SF:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nHere's\x20a\x
+SF:20free\x20flag\x20for\x20you,\x20just\x20for\x20finding\x20this\x20door
+SF:!\x20Flag\x201:\x20zh3r0{pr05_d0_full_sc4n5}\nHeyo,\x20Watcha\x20lookin
+SF:g\x20at\?\x20Employee\x20ID\x20yoo!\x20:\x20\nGo\x20away\x20kiddo,\x20h
+SF:uh,\x20Kids\x20these\x20days!\n")%r(GetRequest,1B1,"\n~~~~~~~~~~~~~~~~~
+SF:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\|\|Employee\x2
+SF:0Entry\|\|\n\n---------------------------------------------------------
+SF:-\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20Sherlock\x20Holmes\x20Inc\.\n~~~~~~~~~~~~~~~~~~~~~~~~~~
+SF:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\nHere's\x20a\x20free\x20flag\x20for\x2
+SF:0you,\x20just\x20for\x20finding\x20this\x20door!\x20Flag\x201:\x20zh3r0
+SF:{pr05_d0_full_sc4n5}\nHeyo,\x20Watcha\x20looking\x20at\?\x20Employee\x2
+SF:0ID\x20yoo!\x20:\x20\nGo\x20away\x20kiddo,\x20huh,\x20Kids\x20these\x20
+SF:days!\n")%r(HTTPOptions,1B1,"\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+SF:~~~~~~~~~~~~~~~~~~\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20\x20\x20\x20\x20\|\|Employee\x20Entry\|\|\n\n---------
+SF:-------------------------------------------------\n\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20Sherloc
+SF:k\x20Holmes\x20Inc\.\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+SF:~~~~~~~~~\nHere's\x20a\x20free\x20flag\x20for\x20you,\x20just\x20for\x2
+SF:0finding\x20this\x20door!\x20Flag\x201:\x20zh3r0{pr05_d0_full_sc4n5}\nH
+SF:eyo,\x20Watcha\x20looking\x20at\?\x20Employee\x20ID\x20yoo!\x20:\x20\nG
+SF:o\x20away\x20kiddo,\x20huh,\x20Kids\x20these\x20days!\n");
+Service Info: OSs: Linux, Unix; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 1391.93 seconds
 ```
 
 We see a lot of information here. Where to start!
@@ -197,16 +293,19 @@ Flag 4: zh3r0{y0ur_s4l4ry_wa5_cr3dit3d}
 Looks like they gave us a flag right away. We also got a prompt for the Employee
 ID, which is what we found above. After entering it in, we get Flag 4!
 
-This is all I found for these challenges. Flags 3, 6, 7, and 8 were all somewhere
-on the host. https://github.com/sidchn/zh3r0CTF-writeup is another writeup that
-kind of hits on Flags 3 and 6.
+This is all I found for these challenges. Flags **3**, **6**, **7**, and **8**
+were all somewhere on the host. https://github.com/sidchn/zh3r0CTF-writeup is
+another writeup that kind of hits on Flags **3** and **6**.
 
 
 ## Flags
-Flag 1: zh3r0{pr05_d0_full_sc4n5}
-Flag 2: zh3r0{You_know_your_shit}
-Flag 4: zh3r0{y0ur_s4l4ry_wa5_cr3dit3d}
-Flag 5: z3hr0{shouldve_added_some_filter_here}
+**Flag 1:** zh3r0{pr05_d0_full_sc4n5}
+
+**Flag 2:** zh3r0{You_know_your_shit}
+
+**Flag 4:** zh3r0{y0ur_s4l4ry_wa5_cr3dit3d}
+
+**Flag 5:** z3hr0{shouldve_added_some_filter_here}
 
 ## Resources
 Nmap/Zenmap - https://nmap.org/download.html

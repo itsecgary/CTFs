@@ -2,6 +2,7 @@
 
 ## HTB
 - Flag 1 (227)
+- Flag 2 (419)
 - Flag 4 (432)
 - Flag 5 (50)
 
