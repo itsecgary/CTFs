@@ -1,7 +1,7 @@
 # Jarred1
 **Category:** Forensics
 
-**Points:** ???
+**Points:** 200
 
 **Description:**
 > **Link:** https://drive.google.com/open?id=1g0j7rm53lU7ZRBM8XgkPkFpUgsfXpjfi

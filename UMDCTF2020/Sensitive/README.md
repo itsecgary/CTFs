@@ -1,7 +1,7 @@
 # Sensitive
 **Category:** Forensics
 
-**Points:** ???
+**Points:** 150
 
 **Description:**
 > **Author:** Lumpus

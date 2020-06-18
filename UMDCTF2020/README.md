@@ -1,7 +1,7 @@
 # UMDCTF2020
 
 ## Forensics
-- Sensitive - 150pts
-- Jarred1 - 200pts
-- Nation State Musical - 300pts
-- Nefarious Bits - 400pts
+- Sensitive (150)
+- Jarred1 (200)
+- Nation State Musical (300)
+- Nefarious Bits (400)

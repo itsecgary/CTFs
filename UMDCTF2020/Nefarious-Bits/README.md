@@ -1,7 +1,7 @@
 # Nefarious Bits
 **Category:** Forensics
 
-**Points:** ???
+**Points:** 400
 
 **Description:**
 > **Author:** t0pc4r

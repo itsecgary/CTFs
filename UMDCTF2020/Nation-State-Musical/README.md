@@ -1,7 +1,7 @@
 # Nation State Musical
 **Category:** Forensics
 
-**Points:** ???
+**Points:** 300
 
 **Description:**
 > **Author:** t0pc4r
