@@ -39,7 +39,7 @@ corner of https://discord.com. This broght me to the page and we can see that
 our name has the flag in it. Not only that, but my favorite doctor/teacher/astronaut/physicist/hacker
 was the profile picture!
 
-[PNG of discord chat](https://github.com/itsecgary/CTFs/tree/master/ZH3R0CTF%202020/Tokens/screenshot.png)
+[PNG of discord chat](https://github.com/itsecgary/CTFs/tree/master/ZH3R0CTF%202020/Tokens/screenshot.PNG)
 
 ## Flag
 zh3r0{1et_7he_F0rce_8e_With_YoU}
