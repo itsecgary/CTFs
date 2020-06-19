@@ -19,5 +19,5 @@
 - [Inspector Gadget (100)](https://github.com/itsecgary/CTFs/tree/master/HSCTF%202020/Web/Inspector-Gadget)
 - [Very Safe Login (100)](https://github.com/itsecgary/CTFs/tree/master/HSCTF%202020/Web/Very-Safe-Login)
 
-## Other
+## Forensics
 - [Picture Lab: Activity 10 (100)](https://github.com/itsecgary/CTFs/tree/master/HSCTF%202020/Picture-Lab-Activity-10)
