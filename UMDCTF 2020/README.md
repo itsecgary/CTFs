@@ -1,7 +1,7 @@
 # UMDCTF2020
 
 ## Forensics
-- Sensitive (150)
-- Jarred1 (200)
-- Nation State Musical (300)
-- Nefarious Bits (400)
+- [Sensitive (150)](https://github.com/itsecgary/CTFs/tree/master/UMDCTF%202020/Sensitive)
+- [Jarred1 (200)](https://github.com/itsecgary/CTFs/tree/master/UMDCTF%202020/Jarred1)
+- [Nation State Musical (300)](https://github.com/itsecgary/CTFs/tree/master/UMDCTF%202020/Nation-State-Musical)
+- [Nefarious Bits (400)](https://github.com/itsecgary/CTFs/tree/master/UMDCTF%202020/Nefarious-Bits)

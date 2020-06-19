@@ -2,13 +2,13 @@
 
 ## HTB
 - [Flag 1 (227)](https://github.com/itsecgary/CTFs/tree/master/ZH3R0CTF%202020/HTB)
-- Flag 2 (419)
-- Flag 4 (432)
-- Flag 5 (50)
+- [Flag 2 (419)](https://github.com/itsecgary/CTFs/tree/master/ZH3R0CTF%202020/HTB)
+- [Flag 4 (432)](https://github.com/itsecgary/CTFs/tree/master/ZH3R0CTF%202020/HTB)
+- [Flag 5 (50)](https://github.com/itsecgary/CTFs/tree/master/ZH3R0CTF%202020/HTB)
 
 ## Crypto
-- RSA-Warmup (20)
-- Hastad's Message (411)
+- [RSA-Warmup (20)](https://github.com/itsecgary/CTFs/tree/master/ZH3R0CTF%202020/RSA-Warmup)
+- [Hastad's Message (411)](https://github.com/itsecgary/CTFs/tree/master/ZH3R0CTF%202020/Hastad's%20Message)
 - Mix (330)
 
 ## Binary Exploitation
@@ -20,5 +20,5 @@
 - Tokens (50)
 
 ## Forensics
-- Katycat (175)
+- [Katycat (175)](https://github.com/itsecgary/CTFs/tree/master/ZH3R0CTF%202020/Katycat)
 - LSB Fun (230)
