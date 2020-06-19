@@ -16,8 +16,8 @@
 - Command-1 (227)
 
 ## Web
-- Web-Warmup (50)
-- Tokens (50)
+- [Web-Warmup (50)](https://github.com/itsecgary/CTFs/tree/master/ZH3R0CTF%202020/Web-Warmup)
+- [Tokens (50)](https://github.com/itsecgary/CTFs/tree/master/ZH3R0CTF%202020/Tokens)
 
 ## Forensics
 - [Katycat (175)](https://github.com/itsecgary/CTFs/tree/master/ZH3R0CTF%202020/Katycat)
