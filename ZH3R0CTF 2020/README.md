@@ -1,7 +1,7 @@
 # ZH3R0CTF 2020
 
 ## HTB
-- Flag 1 (227)
+- [Flag 1 (227)](https://github.com/itsecgary/CTFs/tree/master/ZH3R0CTF%202020/HTB)
 - Flag 2 (419)
 - Flag 4 (432)
 - Flag 5 (50)
