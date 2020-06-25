@@ -28,4 +28,4 @@ https://ctftime.org/event/1062
 
 ## Forensics
 - [Katycat (175)](https://github.com/itsecgary/CTFs/tree/master/ZH3R0CTF%202020/Katycat)
-- LSB Fun (230)
+- [LSB Fun (230)](https://github.com/itsecgary/CTFs/tree/master/ZH3R0CTF%202020/LSB%20Fun)
