@@ -1,13 +1,12 @@
 # redpwnCTF 2020
-https://ctftime.org/event/995
-
-**Dates:**
-June 21st - June 25th (96 hours)
-
-**Team Members:**
-- itsecgary
-- birch
-- bencarlisle15
+> https://ctftime.org/event/995
+>
+> **Dates:** June 21st - June 25th (96 hours)
+>
+> **Team Members:**
+> - itsecgary
+> - birch
+> - bencarlisle15
 
 ## Crypto
 - 4k-rsa (389)
