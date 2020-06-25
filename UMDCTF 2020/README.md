@@ -1,9 +1,10 @@
 # UMDCTF2020
-**Dates:**
-April 18th - April 19th (24 hrs)
+> **Dates:** April 18th - April 19th (24 hrs)
+>
+> **Team Members:**
+> - itsecgary (solo *#rip*)
 
-**Team Members:**
-- itsecgary (solo *#rip*)
+https://ctftime.org/event/1040
 
 ## Forensics
 - [Sensitive (150)](https://github.com/itsecgary/CTFs/tree/master/UMDCTF%202020/Sensitive)

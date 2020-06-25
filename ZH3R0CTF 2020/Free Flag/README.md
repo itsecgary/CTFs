@@ -1,4 +1,4 @@
-# Tokens
+# Free Flag
 **Category:** Binary Exploitation
 
 **Points:** 124

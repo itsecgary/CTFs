@@ -1,12 +1,11 @@
 # ZH3R0CTF 2020
+> **Dates:** June 15th - June 17th 2020
+>
+> **Team Members:**
+> - itsecgary
+> - birch
+
 https://ctftime.org/event/1062
-
-**Dates:**
-June 15th - June 17th 2020
-
-**Team Members:**
-- itsecgary
-- birch
 
 ## HTB
 - [Flag 1 (227)](https://github.com/itsecgary/CTFs/tree/master/ZH3R0CTF%202020/HTB)
