@@ -16,7 +16,7 @@ https://ctftime.org/event/1062
 ## Crypto
 - [RSA-Warmup (20)](https://github.com/itsecgary/CTFs/tree/master/ZH3R0CTF%202020/RSA-Warmup)
 - [Hastad's Message (411)](https://github.com/itsecgary/CTFs/tree/master/ZH3R0CTF%202020/Hastad's%20Message)
-- Mix (330)
+- [Mix (330)](https://github.com/itsecgary/CTFs/tree/master/ZH3R0CTF%202020/Mix)
 
 ## Binary Exploitation
 - [Free Flag (124)](https://github.com/itsecgary/CTFs/tree/master/ZH3R0CTF%202020/Free%20Flag)
