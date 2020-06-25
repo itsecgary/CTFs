@@ -20,7 +20,7 @@ https://ctftime.org/event/1062
 
 ## Binary Exploitation
 - [Free Flag (124)](https://github.com/itsecgary/CTFs/tree/master/ZH3R0CTF%202020/Free%20Flag)
-- Command-1 (227)
+- [Command-1 (227)](https://github.com/itsecgary/CTFs/tree/master/ZH3R0CTF%202020/Command-1)
 
 ## Web
 - [Web-Warmup (50)](https://github.com/itsecgary/CTFs/tree/master/ZH3R0CTF%202020/Web-Warmup)
