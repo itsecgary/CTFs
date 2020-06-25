@@ -1,4 +1,12 @@
 # HSCTF2020
+https://ctftime.org/event/939
+
+**Dates:**
+June 1st - June 5th 2020
+
+**Team Members:**
+- itsecgary
+- pwang00
 
 ## Algorithms
 - [Pythagorean Tree Fractal 1 (100)](https://github.com/itsecgary/CTFs/tree/master/HSCTF%202020/Algorithms/Pythagorean-Tree-Fractal-1)
@@ -21,3 +29,6 @@
 
 ## Forensics
 - [Picture Lab: Activity 10 (100)](https://github.com/itsecgary/CTFs/tree/master/HSCTF%202020/Picture-Lab-Activity-10)
+
+
+[pwang00's writeups](https://github.com/pwang00/CTF-Writeups/tree/master/2020/hsctf)

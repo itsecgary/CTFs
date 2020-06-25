@@ -1,4 +1,12 @@
 # ZH3R0CTF 2020
+https://ctftime.org/event/1062
+
+**Dates:**
+June 15th - June 17th 2020
+
+**Team Members:**
+- itsecgary
+- birch
 
 ## HTB
 - [Flag 1 (227)](https://github.com/itsecgary/CTFs/tree/master/ZH3R0CTF%202020/HTB)
@@ -12,7 +20,7 @@
 - Mix (330)
 
 ## Binary Exploitation
-- Free Flag (124)
+- [Free Flag (124)](https://github.com/itsecgary/CTFs/tree/master/ZH3R0CTF%202020/Free%20Flag)
 - Command-1 (227)
 
 ## Web
