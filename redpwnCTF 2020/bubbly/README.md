@@ -27,7 +27,7 @@ Try again!
 After playing with it for a minute or so, I decided to open it up in **Ghidra**.
 Looks like we have the methods **main**, **check**, and **print_flag**:
 
-**main**
+**main:**
 ```
 int main(void) {
   uint32_t i;
@@ -58,7 +58,7 @@ int main(void) {
 }
 ```
 
-**check**
+**check:**
 ```
 _Bool check(void) {
   uint32_t i;
@@ -76,7 +76,7 @@ _Bool check(void) {
 }
 ```
 
-**print_flag**
+**print_flag:**
 ```
 void print_flag(void) {
   int unused;
