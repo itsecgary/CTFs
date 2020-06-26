@@ -20,7 +20,7 @@ the idea that the colors in the chart were corresponding to the numbers on the
 clock (1-12), but I was just a tiny bit wrong. The color wheel had values
 **(0-11)**, but in hex *obviously...* (sarcasm). Here is my edited version:
 
-![Color Wheel](https://github.com/itsecgary/CTFs/tree/master/redpwnCTF%202020/12-shades-of-redpwn/color-wheel_EDITED.jpg)
+<img src="color-wheel_EDITED.jpg" alt="Color Wheel">
 
 Now, with this and our ciphertext, we can start plugging and chugging values. Our
 result is the following:
