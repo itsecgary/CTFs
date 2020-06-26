@@ -20,7 +20,7 @@ https://ctftime.org/event/995
 - static-static-hosting (434)
 
 ## Rev
-- bubbly (395)
+- [bubbly (395)](https://github.com/itsecgary/CTFs/tree/master/redpwnCTF%202020/bubbly)
 - r1sc (487)
 
 ## Misc
