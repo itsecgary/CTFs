@@ -13,7 +13,7 @@ https://ctftime.org/event/995
 - pseudo-key (341)
 - itsy-bitsy (436)
 - [12-shades-of-redpwn (429)](https://github.com/itsecgary/CTFs/tree/master/redpwnCTF%202020/12-shades-of-redpwn)
-- priminity (450)
+- [primimity (450)](https://github.com/itsecgary/CTFs/tree/master/redpwnCTF%202020/primimity)
 
 ## Web
 - static-pastebin (373)
