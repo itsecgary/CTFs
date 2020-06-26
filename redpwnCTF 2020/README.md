@@ -9,7 +9,7 @@
 https://ctftime.org/event/995
 
 ## Crypto
-- 4k-rsa (389)
+- [4k-rsa (389)](https://github.com/itsecgary/CTFs/tree/master/redpwnCTF%202020/4k-rsa)
 - pseudo-key (341)
 - itsy-bitsy (436)
 - 12-shades-of-redpwn (429)
@@ -24,5 +24,5 @@ https://ctftime.org/event/995
 - r1sc (487)
 
 ## Misc
-- uglybash (359)
+- [uglybash (359)](https://github.com/itsecgary/CTFs/tree/master/redpwnCTF%202020/uglybash)
 - CaaSiNO (402)
