@@ -12,7 +12,7 @@ https://ctftime.org/event/995
 - [4k-rsa (389)](https://github.com/itsecgary/CTFs/tree/master/redpwnCTF%202020/4k-rsa)
 - pseudo-key (341)
 - itsy-bitsy (436)
-- 12-shades-of-redpwn (429)
+- [12-shades-of-redpwn (429)](https://github.com/itsecgary/CTFs/tree/master/redpwnCTF%202020/12-shades-of-redpwn)
 - priminity (450)
 
 ## Web
