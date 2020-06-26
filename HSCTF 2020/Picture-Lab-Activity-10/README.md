@@ -30,7 +30,7 @@ have an extension is run the **file** command on linux or open it up in **HxD**.
 Taking a look at the "mogodb" file in **HxD**, we see that
 there isn't any appropriate header for any specific file format.
 
-![Image of Hex](https://github.com/itsecgary/CTFs/blob/master/HSCTF%202020/Forensics/Picture-Lab-Activity-10/hex.PNG)
+![Image of Hex](https://github.com/itsecgary/CTFs/blob/master/HSCTF%202020/Picture-Lab-Activity-10/hex.PNG)
 
 Now, since we are assuming this is a PNG, we can put the appropriate file header
 and footer:
@@ -91,7 +91,7 @@ No errors detected in mogodb (33 chunks, 84.0% compression).
 No errors detected! Nice! Now let's open the PNG up (don't forget to add the
 .png extension).
 
-![Image of Flag](https://github.com/itsecgary/CTFs/blob/master/HSCTF%202020/Forensics/Picture-Lab-Activity-10/mogodb.png)
+![Image of Flag](https://github.com/itsecgary/CTFs/blob/master/HSCTF%202020/Picture-Lab-Activity-10/mogodb.png)
 
 Seems to be some meme lol, but we get the flag here.
 
