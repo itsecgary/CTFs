@@ -117,8 +117,7 @@ program to swap that index with the index (i) with the index after it (i+1).
 There are many routes to take for sorting this, but here is mine (the bold values
 are the *swapped* values):
 
-```
- *0   1  2  3  4  5  6  7  8  9 --- index values*
+  *0  1  2  3  4  5  6  7  8  9 --- index values*
 
 [1, 10, 3, 2, 5, 9, 8, 7, 4, 6] --- original
 
@@ -161,7 +160,6 @@ are the *swapped* values):
 [1, 2, 3, 4, 5, 6, 7, **8**, **9**, 10] --- (enter "6")
 
 **nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]**
-```
 
 And now it's sorted! Let's get the flag:
 ```
