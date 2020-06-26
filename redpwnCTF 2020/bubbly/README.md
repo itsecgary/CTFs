@@ -87,8 +87,8 @@ void print_flag(void) {
 ```
 
 Seems like the goal here is to reach this **print_flag** method, but we have to
-find out how. The while loop in the **main** method seems to be taking an array
-already defined and swapping two of the values.
+find out how. The while loop in the **main** method seems to be taking an already-defined
+array and swapping two of the values.
 ```
 while( true ) {
   __isoc99_scanf(&DAT_00102058);
@@ -117,7 +117,9 @@ program to swap that index with the index (i) with the index after it (i+1).
 There are many routes to take for sorting this, but here is mine (the bold values
 are the *swapped* values):
 
+```
  *0   1  2  3  4  5  6  7  8  9 --- index values*
+
 [1, 10, 3, 2, 5, 9, 8, 7, 4, 6] --- original
 
 [1, **3**, **10**, 2, 5, 9, 8, 7, 4, 6] --- (enter "1")
@@ -159,6 +161,7 @@ are the *swapped* values):
 [1, 2, 3, 4, 5, 6, 7, **8**, **9**, 10] --- (enter "6")
 
 **nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]**
+```
 
 And now it's sorted! Let's get the flag:
 ```
