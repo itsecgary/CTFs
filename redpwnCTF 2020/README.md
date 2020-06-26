@@ -9,10 +9,10 @@
 https://ctftime.org/event/995
 
 ## Crypto
-- [4k-rsa (389)](https://github.com/itsecgary/CTFs/tree/master/redpwnCTF%202020/4k-rsa)
 - pseudo-key (341)
-- itsy-bitsy (436)
+- [4k-rsa (389)](https://github.com/itsecgary/CTFs/tree/master/redpwnCTF%202020/4k-rsa)
 - [12-shades-of-redpwn (429)](https://github.com/itsecgary/CTFs/tree/master/redpwnCTF%202020/12-shades-of-redpwn)
+- [itsy-bitsy (436)](https://github.com/itsecgary/CTFs/tree/master/redpwnCTF%202020/itsy-bitsy)
 - [primimity (450)](https://github.com/itsecgary/CTFs/tree/master/redpwnCTF%202020/primimity)
 
 ## Web
