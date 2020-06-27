@@ -58,7 +58,7 @@ could, you know, get the flag. I picked the point where the if statement is pass
 and not into the else where the access denied part is **(0x00401050)**.
 
 Here is the script I created for **angr**. I will also provide resources and videos
-on **angr** if someone needs them.
+on **angr** if someone needs them. This took about 15-20 minutes to run.
 ```
 import angr
 import logging
