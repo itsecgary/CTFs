@@ -9,7 +9,7 @@
 https://ctftime.org/event/995
 
 ## Crypto
-- pseudo-key (341)
+- [pseudo-key (341)](https://github.com/itsecgary/CTFs/tree/master/redpwnCTF%202020/pseudo-key)
 - [4k-rsa (389)](https://github.com/itsecgary/CTFs/tree/master/redpwnCTF%202020/4k-rsa)
 - [12-shades-of-redpwn (429)](https://github.com/itsecgary/CTFs/tree/master/redpwnCTF%202020/12-shades-of-redpwn)
 - [itsy-bitsy (436)](https://github.com/itsecgary/CTFs/tree/master/redpwnCTF%202020/itsy-bitsy)
@@ -21,7 +21,7 @@ https://ctftime.org/event/995
 
 ## Rev
 - [bubbly (395)](https://github.com/itsecgary/CTFs/tree/master/redpwnCTF%202020/bubbly)
-- r1sc (487)
+- [r1sc (487)](https://github.com/itsecgary/CTFs/tree/master/redpwnCTF%202020/r1sc)
 
 ## Misc
 - [uglybash (359)](https://github.com/itsecgary/CTFs/tree/master/redpwnCTF%202020/uglybash)
