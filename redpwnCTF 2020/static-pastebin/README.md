@@ -19,9 +19,8 @@ The first thing I do is check out both websites. The first website after "here"
 was a bot URL submission page. The other website is a big text box, so yes, a
 pastebin.
 
-![Bot Submission](https://github.com/itsecgary/CTFs/tree/master/redpwnCTF%202020/static-pastebin/bot_submission.PNG)
-
-![Bot Submission](https://github.com/itsecgary/CTFs/tree/master/redpwnCTF%202020/static-pastebin/pastebin.PNG)
+<img src="bot_submission.PNG" alt="Bot Submission">
+<img src="pastebin.PNG" alt="Static Webpage">
 
 Right away I realized this had to be a reflected XSS (Cross-Site Scripting) attack. There
 are two types of XSS attacks: **stored** and **reflected**. A **stored** XSS attack
@@ -36,7 +35,7 @@ In this case, we have a **reflected** XSS attack because we have a bot page comi
 to visit our website and it probably has some important information in it's **cookies**.
 Anyways, let's see what happens if we paste something and enter it:
 
-![First Attempt](https://github.com/itsecgary/CTFs/tree/master/redpwnCTF%202020/static-pastebin/first_try.PNG)
+<img src="first_try.PNG" alt="First Attempt">
 
 Looks like the link it generated for us is in base64, but makes it so that we can
 really put anything and it will condense down to a website the bot can go to. I
@@ -110,13 +109,13 @@ digging and research and found the final exploit. I will have my cookie be:
 
 **Webhook:**
 
-![First Attempt](https://github.com/itsecgary/CTFs/tree/master/redpwnCTF%202020/static-pastebin/make_it_reflected.PNG)
+<img src="make_it_reflected.PNG" alt="Testing Payload">
 
 Niceeeeee. Now let's give this malicious cookie-stealing link to the admin bot.
 
 **Webhook:**
 
-![First Attempt](https://github.com/itsecgary/CTFs/tree/master/redpwnCTF%202020/static-pastebin/bot.PNG)
+<img src="bot.PNG" alt="Bot get's pwned">
 
 I thought this challenge was pretty cool to be honest. I learned about XSS attacks
 in school, but never had to develop a payload for one. Awesome challenge.
