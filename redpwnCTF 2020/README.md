@@ -17,7 +17,7 @@ https://ctftime.org/event/995
 
 ## Web
 - [static-pastebin (373)](https://github.com/itsecgary/CTFs/tree/master/redpwnCTF%202020/static-pastebin)
-- static-static-hosting (434)
+- [static-static-hosting (434)](https://github.com/itsecgary/CTFs/tree/master/redpwnCTF%202020/static-static-hosting)
 
 ## Rev
 - [bubbly (395)](https://github.com/itsecgary/CTFs/tree/master/redpwnCTF%202020/bubbly)

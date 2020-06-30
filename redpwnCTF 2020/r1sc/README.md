@@ -43,6 +43,8 @@ undefined  [16] entry(undefined8 param_1) {
 }
 ```
 
+*UPDATE* - This is **probably** not the intended route for this challenge
+
 I found this cool tool that I guess I've been missing out on called **angr**. To
 my understanding, this is basically a brute-forcer for binaries. Maybe that's not
 *exactly* the purpose of it, butttttt that's sure as hell what we are going to
