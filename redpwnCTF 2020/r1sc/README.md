@@ -61,16 +61,11 @@ Here is the script I created for **angr**. I will also provide resources and vid
 on **angr** if someone needs them. This took about 15-20 minutes to run.
 ```
 import angr
-import logging
-
-#logging.getLogger('angr').setLevel(logging.INFO)
 
 p = angr.Project("r1sc")
 good = 0x00401050
 bad = 0x0040103b
-#length = 72
 
-st = p.factory.entry_state()
 sm = p.factory.simulation_manager()
 print(sm.explore(find=good, avoid=bad))
 
