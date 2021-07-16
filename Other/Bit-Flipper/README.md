@@ -82,14 +82,14 @@ but that was mainly dealing with 7-bit and 8-bit codes. This is a little differe
 <br>
 If you are unfamiliar with 7-bit and/or 8-bit Hamming Codes, here is a small
 explanation. 7-bit hamming code (also known as Hamming(7,4)) contains 4 bits
-of data and 3 parity bits, hence 7 bits.
+of data and 3 parity bits, hence 7 bits.<br/><br/>
 
 <img src="https://latex.codecogs.com/png.latex?\dpi{150}&space;\LARGE\color{Orange}&space;p_{1}&space;p_{2}&space;d_{1}&space;p_{3}&space;d_{2}&space;d_{3}&space;d_{4}&space;"/>
 
 The parity bits are assigned to 3 of the 4 data bits to assess the parity of those
 bits. The *parity* of bits essentially means if there are an odd number of 1s or
 not (just an XOR). For example, if we wanted to send `0110` to another person/entity,
-the Hamming(7,4) would look like:
+the Hamming(7,4) would look like:<br/><br/>
 
 <img src="https://latex.codecogs.com/png.latex?\dpi{150}&space;\LARGE\color{Orange}&space;p_{1}&space;p_{2}&space;0&space;p_{3}&space;1&space;1&space;0" />
 
@@ -113,7 +113,7 @@ before. So, the 8-bit Hamming Code would look like:
 
 <img src="https://latex.codecogs.com/png.latex?\dpi{150}&space;\LARGE\color{Orange}&space;0&space;1&space;1&space;0&space;0&space;1&space;1&space;0&space;"/>
 
-
+<br/>
 <hr>
 <br/>
 
