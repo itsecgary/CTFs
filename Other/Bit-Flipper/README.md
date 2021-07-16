@@ -16,7 +16,6 @@ This challenge took me a long time for some reason, but I enjoyed solving it. Ha
 A-Sat2's challenges were taken down right after the competition, so I will be
 using their local challenge repo for the purpose of this writeup. All of the challenges
 can be found on [GitHub](https://github.com/cromulencellc/hackasat-qualifier-2021)
-
 <br>
 
 Now, to the writeup. We were given a file `encoded.bin` which looks like:
@@ -41,7 +40,7 @@ def +readTemp=(temp,stŸate):
 
 We were also given a **nc** connection (in this case we will just run *challenge.py*
 since it is local).
-
+<br>
 Upon initially running the program, we receive:
 
 ```
@@ -63,7 +62,7 @@ special ability to change (up to 3) bits within this file. Off the bat, we notic
 that `encoded.bin` should contain 405 bytes. This looks like a python program,
 but that sure as hell wouldn't execute. What are the special characters for? Well, \
 they have a purpose. Just wait. Let's do some research on what we were given.
-
+<br>
 **What exactly IS a SECDED check?**
 
 SECDED (Single-Error Correcting | Double-Error Correcting) checks are used in
@@ -77,39 +76,45 @@ little bit about Hamming Code when I took a Digital Logic Design class in school
 but that was mainly dealing with 7-bit and 8-bit codes. This is a little different.
 
 <br>
-<br>
+<hr>
 
 If you are unfamiliar with 7-bit and/or 8-bit Hamming Codes, here is a small
 explanation. 7-bit hamming code (also known as Hamming(7,4)) contains 4 bits
-of data and 3 parity bits, hence 7 bits.
+of data and 3 parity bits, hence 7 bits. 
 
-\begin{p_{1}p_{2}d_{1}p_{3}d_{2}d_{3}d_{4}}
+$$ \LARGE\begin{equation} 
+p_{1} p_{2} d_{1} p_{3} d_{2} d_{3} d_{4}  
+\end{equation} $$
 
 The parity bits are assigned to 3 of the 4 data bits to assess the parity of those
 bits. The *parity* of bits essentially means if there are an odd number of 1s or
 not (just an XOR). For example, if we wanted to send `0110` to another person/entity,
 the Hamming(7,4) would look like:
 
-\begin{p_{1}p_{2}0p_{3}110}
+$$ \LARGE\begin{equation} 
+p_{1} p_{2} 0 p_{3} 1 1 0 
+\end{equation} $$
 
 Then the parity bits are added:
 
-\begin{p_{1}} looks at \begin{d_{1}}, \begin{d_{2}}, \begin{d_{4}}
+```
+p1 looks at d1, d2, d3
 
-\begin{p_{2}} looks at \begin{d_{1}}, \begin{d_{3}}, \begin{d_{4}}
+p2 looks at d1, d3, d4
 
-\begin{p_{3}} looks at \begin{d_{2}}, \begin{d_{3}}, \begin{d_{4}}.
+p3 looks at d2, d3, d4
 
-\begin{1100110} is our final Hamming(7,4)
+1100110 is our final Hamming(7,4)
+
+```
 
 Now, Hamming(8,4) is practically the same, just with an extra parity bit. The
 extra parity bit is added to the beginning and takes the parity of all 7 bits from
 before. So, the 8-bit Hamming Code would look like:
-\
 
-\begin{01100110}
+$$ \LARGE\begin{equation} 0 1 1 0 0 1 1 0 \end{equation} $$
 
-<br>
+<hr>
 <br>
 
 These SECDED checks happen to be for every 8 bytes of the file. You're probably
@@ -120,12 +125,12 @@ that occur after 8 bytes (if only I noticed this immediately smh).
 
 We can represent the parity checks by what's called an "H-matrix".
 
-\begin{bmatrix}
+$$ \begin{bmatrix}
 ? & ? & ? & ? & ? & ? & ? & ?\\
 ? & ? & ? & ? & ? & ? & ? & ?\\
 ... & ... & ... & ... & ... & ... & ... & ...\\
 ? & ? & ? & ? & ? & ? & ? & ?
-\end{bmatrix}
+\end{bmatrix} $$
 
 Each row represents which bits in each byte of data will be checked for parity. Just
 like Hamming(7,4), except it's Hamming(8,1) in some sense. The trick here is that
@@ -150,6 +155,7 @@ one bit diff
 two bits diff
 ```
 
+<br>
 *There probably are other options, but we can just look at these two for now*.
 One-bit difference is probably an easy go, so let's give it a shot. I will flip
 the `<` in the first part of the if-statement to be a `>`. This means we will
@@ -159,7 +165,9 @@ try to flip any of the bits of the 161at byte. The `Ô` is the parity byte for t
 The program requires a 3rd bit to flip, so we will choose another random spot away
 from the block we are flipping (let's put it in a comment) so we don't mess it up.
 
-```
+<br>
+
+```sh
 $ python3 challenge.py
    BIT FLIPPER
     CHALLENGE
@@ -202,9 +210,11 @@ flag{this_is_a_test_flag_inserted_by_Gary}
 
 After some iterations, we found that the 4 index of the parity byte made our little
 change from `<` to `>` slide right pass the SECDED check :)
+<br>
 
 ## Flag
 flag{this_is_a_test_flag_inserted_by_Gary} (well I manually inserted this one)
+<br>
 
 ## Resources
 [Hamming Code](https://en.wikipedia.org/wiki/Hamming_code)
