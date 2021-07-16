@@ -82,7 +82,8 @@ but that was mainly dealing with 7-bit and 8-bit codes. This is a little differe
 
 If you are unfamiliar with 7-bit and/or 8-bit Hamming Codes, here is a small
 explanation. 7-bit hamming code (also known as Hamming(7,4)) contains 4 bits
-of data and 3 parity bits, hence 7 bits.
+of data and 3 parity bits, hence 7 bits.<br/>
+
 
 <img src="https://latex.codecogs.com/png.latex?
 \dpi{150}&space;\LARGE\color{Orange}&space;p_{1}&space;p_{2}&space;d_{1}&space;p_{3}&space;d_{2}&space;d_{3}&space;d_{4}&space;"/>
