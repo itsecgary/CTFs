@@ -80,13 +80,14 @@ but that was mainly dealing with 7-bit and 8-bit codes. This is a little differe
 <br/>
 <hr>
 
+<img src="https://latex.codecogs.com/png.latex?
+\dpi{150}&space;\LARGE\color{Orange}&space;p_{1}&space;p_{2}&space;d_{1}&space;p_{3}&space;d_{2}&space;d_{3}&space;d_{4}&space;"/>
+
+
 If you are unfamiliar with 7-bit and/or 8-bit Hamming Codes, here is a small
 explanation. 7-bit hamming code (also known as Hamming(7,4)) contains 4 bits
-of data and 3 parity bits, hence 7 bits.<br/>
+of data and 3 parity bits, hence 7 bits.
 
-
-<p><img src="https://latex.codecogs.com/png.latex?
-\dpi{150}&space;\LARGE\color{Orange}&space;p_{1}&space;p_{2}&space;d_{1}&space;p_{3}&space;d_{2}&space;d_{3}&space;d_{4}&space;"/></p>
 
 The parity bits are assigned to 3 of the 4 data bits to assess the parity of those
 bits. The *parity* of bits essentially means if there are an odd number of 1s or
