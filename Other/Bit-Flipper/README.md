@@ -40,7 +40,9 @@ def +readTemp=(temp,stŸate):
 
 We were also given a **nc** connection (in this case we will just run *challenge.py*
 since it is local).
-<br>
+
+<br/>
+
 Upon initially running the program, we receive:
 
 ```
@@ -75,7 +77,7 @@ we are given the power to flip bits within the python program, but it will be ch
 little bit about Hamming Code when I took a Digital Logic Design class in school,
 but that was mainly dealing with 7-bit and 8-bit codes. This is a little different.
 
-<br>
+<br/>
 <hr>
 
 If you are unfamiliar with 7-bit and/or 8-bit Hamming Codes, here is a small
@@ -114,7 +116,7 @@ before. So, the 8-bit Hamming Code would look like:
 
 
 <hr>
-<br>
+<br/>
 
 These SECDED checks happen to be for every 8 bytes of the file. You're probably
 saying "well Gary... 405 isn't divisible by 8!" Well you're right, but we haven't
@@ -133,7 +135,7 @@ know the H-matrix.
 
 The challenge requires us to flip bits in a way for the python file to allow
 temperatures outside of the operating range of 0-70C. There are a couple options
-we can do here to make the Thermal Protection System (TPS) go outside of this zone.
+we can do here to make the Thermal Protection System (TPS) go outside of this zone.<br/><br/>
 
 ```
 00100100
@@ -149,7 +151,7 @@ one bit diff
 two bits diff
 ```
 
-<br>
+<br/>
 <i>There probably are other options, but we can just look at these two for now</i>.
 One-bit difference is probably an easy go, so let's give it a shot. I will flip
 the `<` in the first part of the if-statement to be a `>`. This means we will
@@ -159,7 +161,7 @@ try to flip any of the bits of the 161at byte. The `Ô` is the parity byte for t
 The program requires a 3rd bit to flip, so we will choose another random spot away
 from the block we are flipping (let's put it in a comment) so we don't mess it up.
 
-<br>
+<br/><br/>
 
 ```
 $ python3 challenge.py
@@ -207,7 +209,7 @@ change from `<` to `>` slide right pass the SECDED check :)
 <br>
 
 ## Flag
-flag{this_is_a_test_flag_inserted_by_Gary} (well I manually inserted this one)
+`flag{this_is_a_test_flag_inserted_by_Gary}` (well I manually inserted this one)
 <br>
 
 ## Resources
@@ -216,4 +218,3 @@ flag{this_is_a_test_flag_inserted_by_Gary} (well I manually inserted this one)
 [Hamming(7,4)](https://en.wikipedia.org/wiki/Hamming(7,4))
 
 [Hamming codes and error correction video](https://www.youtube.com/watch?v=X8jsijhllIA)
-
