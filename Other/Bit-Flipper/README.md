@@ -80,9 +80,9 @@ but that was mainly dealing with 7-bit and 8-bit codes. This is a little differe
 
 If you are unfamiliar with 7-bit and/or 8-bit Hamming Codes, here is a small
 explanation. 7-bit hamming code (also known as Hamming(7,4)) contains 4 bits
-of data and 3 parity bits, hence 7 bits. 
+of data and 3 parity bits, hence 7 bits.
 
-$ \LARGE\begin{equation} 
+$ \LARGE\begin{equation}
 p_{1} p_{2} d_{1} p_{3} d_{2} d_{3} d_{4}  
 \end{equation} $
 
@@ -91,8 +91,8 @@ bits. The *parity* of bits essentially means if there are an odd number of 1s or
 not (just an XOR). For example, if we wanted to send `0110` to another person/entity,
 the Hamming(7,4) would look like:
 
-$ \LARGE\begin{equation} 
-p_{1} p_{2} 0 p_{3} 1 1 0 
+$ \LARGE\begin{equation}
+p_{1} p_{2} 0 p_{3} 1 1 0
 \end{equation} $
 
 Then the parity bits are added:
@@ -112,7 +112,9 @@ Now, Hamming(8,4) is practically the same, just with an extra parity bit. The
 extra parity bit is added to the beginning and takes the parity of all 7 bits from
 before. So, the 8-bit Hamming Code would look like:
 
-$ \LARGE\begin{equation} 0 1 1 0 0 1 1 0 \end{equation} $
+```math
+\LARGE\begin{equation} 0 1 1 0 0 1 1 0 \end{equation}
+```
 
 <hr>
 <br>
@@ -125,12 +127,14 @@ that occur after 8 bytes (if only I noticed this immediately smh).
 
 We can represent the parity checks by what's called an "H-matrix".
 
-$ \begin{bmatrix}
+```math
+\begin{bmatrix}
 ? & ? & ? & ? & ? & ? & ? & ?\\
 ? & ? & ? & ? & ? & ? & ? & ?\\
 ... & ... & ... & ... & ... & ... & ... & ...\\
 ? & ? & ? & ? & ? & ? & ? & ?
-\end{bmatrix} $
+\end{bmatrix}
+```
 
 Each row represents which bits in each byte of data will be checked for parity. Just
 like Hamming(7,4), except it's Hamming(8,1) in some sense. The trick here is that
