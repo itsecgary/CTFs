@@ -224,3 +224,7 @@ flag{this_is_a_test_flag_inserted_by_Gary} (well I manually inserted this one)
 [Hamming Code](https://en.wikipedia.org/wiki/Hamming_code)
 [Hamming(7,4)](https://en.wikipedia.org/wiki/Hamming(7,4))
 [Hamming codes and error correction video](https://www.youtube.com/watch?v=X8jsijhllIA)
+
+
+
+<code>\(E = mc^2\)</code>
