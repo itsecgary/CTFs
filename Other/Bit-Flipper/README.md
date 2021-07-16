@@ -226,5 +226,8 @@ flag{this_is_a_test_flag_inserted_by_Gary} (well I manually inserted this one)
 [Hamming codes and error correction video](https://www.youtube.com/watch?v=X8jsijhllIA)
 
 
-
-<code>\(E = mc^2\)</code>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<p>\(E = mc^2\)</p>
