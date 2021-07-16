@@ -82,18 +82,14 @@ If you are unfamiliar with 7-bit and/or 8-bit Hamming Codes, here is a small
 explanation. 7-bit hamming code (also known as Hamming(7,4)) contains 4 bits
 of data and 3 parity bits, hence 7 bits.
 
-$ \LARGE\begin{equation}
-p_{1} p_{2} d_{1} p_{3} d_{2} d_{3} d_{4}  
-\end{equation} $
+<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{150}&space;\huge&space;{\color{Green}&space;\LARGE\begin{equation}&space;p_{1}&space;p_{2}&space;d_{1}&space;p_{3}&space;d_{2}&space;d_{3}&space;d_{4}&space;\end{equation}}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\dpi{150}&space;\huge&space;{\color{Green}&space;\LARGE\begin{equation}&space;p_{1}&space;p_{2}&space;d_{1}&space;p_{3}&space;d_{2}&space;d_{3}&space;d_{4}&space;\end{equation}}" title="\huge {\color{Green} \LARGE\begin{equation} p_{1} p_{2} d_{1} p_{3} d_{2} d_{3} d_{4} \end{equation}}" /></a>
 
 The parity bits are assigned to 3 of the 4 data bits to assess the parity of those
 bits. The *parity* of bits essentially means if there are an odd number of 1s or
 not (just an XOR). For example, if we wanted to send `0110` to another person/entity,
 the Hamming(7,4) would look like:
 
-$ \LARGE\begin{equation}
-p_{1} p_{2} 0 p_{3} 1 1 0
-\end{equation} $
+<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{150}&space;\huge&space;\LARGE\begin{equation}&space;p_{1}&space;p_{2}&space;0&space;p_{3}&space;1&space;1&space;0&space;\end{equation}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\dpi{150}&space;\huge&space;\LARGE\begin{equation}&space;p_{1}&space;p_{2}&space;0&space;p_{3}&space;1&space;1&space;0&space;\end{equation}" title="\huge \LARGE\begin{equation} p_{1} p_{2} 0 p_{3} 1 1 0 \end{equation}" /></a>
 
 Then the parity bits are added:
 
@@ -112,9 +108,9 @@ Now, Hamming(8,4) is practically the same, just with an extra parity bit. The
 extra parity bit is added to the beginning and takes the parity of all 7 bits from
 before. So, the 8-bit Hamming Code would look like:
 
-```math
-\LARGE\begin{equation} 0 1 1 0 0 1 1 0 \end{equation}
-```
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{150}&space;\huge&space;\LARGE\begin{equation}&space;0&space;1&space;1&space;0&space;0&space;1&space;1&space;0&space;\end{equation}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\dpi{150}&space;\huge&space;\LARGE\begin{equation}&space;0&space;1&space;1&space;0&space;0&space;1&space;1&space;0&space;\end{equation}" title="\huge \LARGE\begin{equation} 0 1 1 0 0 1 1 0 \end{equation}" /></a>
+
 
 <hr>
 <br>
@@ -127,14 +123,7 @@ that occur after 8 bytes (if only I noticed this immediately smh).
 
 We can represent the parity checks by what's called an "H-matrix".
 
-```math
-\begin{bmatrix}
-? & ? & ? & ? & ? & ? & ? & ?\\
-? & ? & ? & ? & ? & ? & ? & ?\\
-... & ... & ... & ... & ... & ... & ... & ...\\
-? & ? & ? & ? & ? & ? & ? & ?
-\end{bmatrix}
-```
+<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{150}&space;\huge&space;\color{Red}\begin{bmatrix}&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?\\&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?\\&space;...&space;&&space;...&space;&&space;...&space;&&space;...&space;&&space;...&space;&&space;...&space;&&space;...&space;&&space;...\\&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;\end{bmatrix}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\dpi{150}&space;\huge&space;\color{Red}\begin{bmatrix}&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?\\&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?\\&space;...&space;&&space;...&space;&&space;...&space;&&space;...&space;&&space;...&space;&&space;...&space;&&space;...&space;&&space;...\\&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;\end{bmatrix}" title="\huge \color{Red}\begin{bmatrix} ? & ? & ? & ? & ? & ? & ? & ?\\ ? & ? & ? & ? & ? & ? & ? & ?\\ ... & ... & ... & ... & ... & ... & ... & ...\\ ? & ? & ? & ? & ? & ? & ? & ? \end{bmatrix}" /></a>
 
 Each row represents which bits in each byte of data will be checked for parity. Just
 like Hamming(7,4), except it's Hamming(8,1) in some sense. The trick here is that
@@ -226,8 +215,8 @@ flag{this_is_a_test_flag_inserted_by_Gary} (well I manually inserted this one)
 [Hamming codes and error correction video](https://www.youtube.com/watch?v=X8jsijhllIA)
 
 
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-</script>
-<p>\(E = mc^2\)</p>
+```tex
+
+\sum_{x=0}^n f(x)
+
+```
