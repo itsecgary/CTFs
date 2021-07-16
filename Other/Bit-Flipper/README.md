@@ -20,7 +20,7 @@ can be found on [GitHub](https://github.com/cromulencellc/hackasat-qualifier-202
 
 Now, to the writeup. We were given a file `encoded.bin` which looks like:
 
-```py
+```
 # Temper¶ature Seµnsor
 # IRf temper¹ature abºove/belopw threshKold, dea]ctivate/[activate® heater
 Timport sPys
@@ -82,14 +82,15 @@ If you are unfamiliar with 7-bit and/or 8-bit Hamming Codes, here is a small
 explanation. 7-bit hamming code (also known as Hamming(7,4)) contains 4 bits
 of data and 3 parity bits, hence 7 bits.
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{150}&space;\huge&space;{\color{Green}&space;\LARGE\begin{equation}&space;p_{1}&space;p_{2}&space;d_{1}&space;p_{3}&space;d_{2}&space;d_{3}&space;d_{4}&space;\end{equation}}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\dpi{150}&space;\huge&space;{\color{Green}&space;\LARGE\begin{equation}&space;p_{1}&space;p_{2}&space;d_{1}&space;p_{3}&space;d_{2}&space;d_{3}&space;d_{4}&space;\end{equation}}" title="\huge {\color{Green} \LARGE\begin{equation} p_{1} p_{2} d_{1} p_{3} d_{2} d_{3} d_{4} \end{equation}}" /></a>
+<img src="https://latex.codecogs.com/png.latex?
+\dpi{150}&space;\LARGE\color{Orange}&space;p_{1}&space;p_{2}&space;d_{1}&space;p_{3}&space;d_{2}&space;d_{3}&space;d_{4}&space;"/>
 
 The parity bits are assigned to 3 of the 4 data bits to assess the parity of those
 bits. The *parity* of bits essentially means if there are an odd number of 1s or
 not (just an XOR). For example, if we wanted to send `0110` to another person/entity,
 the Hamming(7,4) would look like:
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{150}&space;\huge&space;\LARGE\begin{equation}&space;p_{1}&space;p_{2}&space;0&space;p_{3}&space;1&space;1&space;0&space;\end{equation}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\dpi{150}&space;\huge&space;\LARGE\begin{equation}&space;p_{1}&space;p_{2}&space;0&space;p_{3}&space;1&space;1&space;0&space;\end{equation}" title="\huge \LARGE\begin{equation} p_{1} p_{2} 0 p_{3} 1 1 0 \end{equation}" /></a>
+<img src="https://latex.codecogs.com/png.latex?\dpi{150}&space;\LARGE\color{Orange}&space;p_{1}&space;p_{2}&space;0&space;p_{3}&space;1&space;1&space;0" />
 
 Then the parity bits are added:
 
@@ -109,7 +110,7 @@ extra parity bit is added to the beginning and takes the parity of all 7 bits fr
 before. So, the 8-bit Hamming Code would look like:
 
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{150}&space;\huge&space;\LARGE\begin{equation}&space;0&space;1&space;1&space;0&space;0&space;1&space;1&space;0&space;\end{equation}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\dpi{150}&space;\huge&space;\LARGE\begin{equation}&space;0&space;1&space;1&space;0&space;0&space;1&space;1&space;0&space;\end{equation}" title="\huge \LARGE\begin{equation} 0 1 1 0 0 1 1 0 \end{equation}" /></a>
+<img src="https://latex.codecogs.com/png.latex?\dpi{150}&space;\LARGE\color{Orange}&space;0&space;1&space;1&space;0&space;0&space;1&space;1&space;0&space;"/>
 
 
 <hr>
@@ -123,7 +124,7 @@ that occur after 8 bytes (if only I noticed this immediately smh).
 
 We can represent the parity checks by what's called an "H-matrix".
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=\dpi{150}&space;\huge&space;\color{Red}\begin{bmatrix}&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?\\&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?\\&space;...&space;&&space;...&space;&&space;...&space;&&space;...&space;&&space;...&space;&&space;...&space;&&space;...&space;&&space;...\\&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;\end{bmatrix}" target="_blank"><img src="https://latex.codecogs.com/png.latex?\dpi{150}&space;\huge&space;\color{Red}\begin{bmatrix}&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?\\&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?\\&space;...&space;&&space;...&space;&&space;...&space;&&space;...&space;&&space;...&space;&&space;...&space;&&space;...&space;&&space;...\\&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;\end{bmatrix}" title="\huge \color{Red}\begin{bmatrix} ? & ? & ? & ? & ? & ? & ? & ?\\ ? & ? & ? & ? & ? & ? & ? & ?\\ ... & ... & ... & ... & ... & ... & ... & ...\\ ? & ? & ? & ? & ? & ? & ? & ? \end{bmatrix}" /></a>
+<img src="https://latex.codecogs.com/png.latex?\dpi{150}&space;\huge&space;\color{Orange}\begin{bmatrix}&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?\\&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?\\&space;...&space;&&space;...&space;&&space;...&space;&&space;...&space;&&space;...&space;&&space;...&space;&&space;...&space;&&space;...\\&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;&&space;?&space;\end{bmatrix}"/>
 
 Each row represents which bits in each byte of data will be checked for parity. Just
 like Hamming(7,4), except it's Hamming(8,1) in some sense. The trick here is that
@@ -149,7 +150,7 @@ two bits diff
 ```
 
 <br>
-*There probably are other options, but we can just look at these two for now*.
+<i>There probably are other options, but we can just look at these two for now</i>.
 One-bit difference is probably an easy go, so let's give it a shot. I will flip
 the `<` in the first part of the if-statement to be a `>`. This means we will
 flip bit at index 1 of the 155th byte. Since we are flipping a bit, one of the
@@ -160,7 +161,7 @@ from the block we are flipping (let's put it in a comment) so we don't mess it u
 
 <br>
 
-```sh
+```
 $ python3 challenge.py
    BIT FLIPPER
     CHALLENGE
@@ -211,12 +212,8 @@ flag{this_is_a_test_flag_inserted_by_Gary} (well I manually inserted this one)
 
 ## Resources
 [Hamming Code](https://en.wikipedia.org/wiki/Hamming_code)
+
 [Hamming(7,4)](https://en.wikipedia.org/wiki/Hamming(7,4))
+
 [Hamming codes and error correction video](https://www.youtube.com/watch?v=X8jsijhllIA)
 
-
-```tex
-
-\sum_{x=0}^n f(x)
-
-```
