@@ -85,8 +85,8 @@ explanation. 7-bit hamming code (also known as Hamming(7,4)) contains 4 bits
 of data and 3 parity bits, hence 7 bits.<br/>
 
 
-<img src="https://latex.codecogs.com/png.latex?
-\dpi{150}&space;\LARGE\color{Orange}&space;p_{1}&space;p_{2}&space;d_{1}&space;p_{3}&space;d_{2}&space;d_{3}&space;d_{4}&space;"/>
+<p><img src="https://latex.codecogs.com/png.latex?
+\dpi{150}&space;\LARGE\color{Orange}&space;p_{1}&space;p_{2}&space;d_{1}&space;p_{3}&space;d_{2}&space;d_{3}&space;d_{4}&space;"/></p>
 
 The parity bits are assigned to 3 of the 4 data bits to assess the parity of those
 bits. The *parity* of bits essentially means if there are an odd number of 1s or
