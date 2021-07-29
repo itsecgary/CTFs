@@ -227,7 +227,11 @@ should make a truth table to derive the type of logic happening within these blo
 *but each pair of "car streams" corresponds to a bit being 0 or 1.* Here are the possibilities for both blocks with inputs on the top or to the left and the outputs being on the bottom or to the right.
 </br>
 
-<img src="images/xor_visual.PNG" width="800" style="margin-left: auto; margin-right: auto">
+<hr>
+
+<img src="images/xor_visual.PNG" width="1000" style="margin-left: auto; margin-right: auto">
+
+<hr>
 
 <p float="left">
 	<img src="images/block_visual1.PNG" width="500">
@@ -238,7 +242,8 @@ should make a truth table to derive the type of logic happening within these blo
 	<img src="images/block_visual4.PNG" width="500">
 </p>
 
-</br>
+<hr>
+
 
 #### Small Block
 
@@ -279,10 +284,7 @@ Based on our truth tables above, we can see that the small block is simply an XO
  
  </br>
  
-<object data="full_game_board.PDF" type="application/pdf" width="700px" height="700px">
-    <embed src="full_game_board.PDF">
-        <p> <a href="full_game_board.PDF">Game board as circuit</a></p>
-    </embed>
+<object data="full_game_board.pdf" type="application/pdf" width="100%">
 </object>
 
 </br>
