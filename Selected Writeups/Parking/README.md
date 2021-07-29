@@ -227,7 +227,7 @@ should make a truth table to derive the type of logic happening within these blo
 *but each pair of "car streams" corresponds to a bit being 0 or 1.* Here are the possibilities for both blocks with inputs on the top or to the left and the outputs being on the bottom or to the right.
 </br>
 
-<img src="images/xor_visual.PNG" width="1000">
+<img src="images/xor_visual.PNG" width="1000" style="margin-left: auto; margin-right: auto">
 
 <p float="left">
 	<img src="images/block_visual1.PNG" width="500">
