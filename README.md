@@ -1,5 +1,8 @@
 # Capture The Flag
 
+## 2021
+- [Selected Writeups](https://github.com/itsecgary/CTFs/tree/master/Selected%20Writeups)
+
 ## 2020
 - [UMDCTF](https://github.com/itsecgary/CTFs/tree/master/UMDCTF%202020/) (121st)
 - [HSCTF](https://github.com/itsecgary/CTFs/tree/master/HSCTF%202020/) (124th)
@@ -12,4 +15,4 @@ General: https://help.github.com/en/github/writing-on-github/basic-writing-and-f
 
 LaTeX: https://wch.github.io/latexsheet/
 
-Render LaTeX: https://www.codecogs.com/eqnedit.php
+Render TeX: https://www.codecogs.com/eqnedit.php
