@@ -181,7 +181,7 @@ respectively. The red starting car is located in the bottom right of the game bo
 and the green flag cars are located on the left side of the game board (spread out
   along the side)!
 
-<img src="images/writeup_image_3.PNG" height="500">
+<img src="images/writeup_image_3.PNG" height="300">
 
 </br>
 
@@ -212,7 +212,7 @@ There are two elements we need to understand within this whole circuit.
 
 </br>
 
-<img src="images/xor_gate.PNG" height="500">
+<img src="images/xor_gate.PNG" height="300">
 
 <img src="images/block_gate.PNG" width="500">
 
