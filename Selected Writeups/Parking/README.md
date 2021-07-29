@@ -45,6 +45,8 @@ Saved.
 
 </br>
 
+<img src="images/writeup_image_1.PNG" width="300">
+
 ![image of first level](images/writeup_image_1.PNG)
 
 </br>
@@ -89,6 +91,8 @@ b'CTF{\x01}'
 Interesting. Let's look at the second level. Upon running `py game.py level2`,
 we get a massive plot. And I mean **MASSIVE**. It takes a couple seconds for the
 Python graphing interface to process each one of my actions.
+
+<img src="images/writeup_image_2.PNG" width="300">
 
 ![image of level 2](images/writeup_image_2.PNG)
 	
@@ -181,6 +185,8 @@ respectively. The red starting car is located in the bottom right of the game bo
 and the green flag cars are located on the left side of the game board (spread out
   along the side)!
 
+<img src="images/writeup_image_3.PNG" width="300">
+
 ![close up of green car](images/writeup_image_3.PNG)
 
 </br>
@@ -212,6 +218,10 @@ There are two elements we need to understand within this whole circuit.
 
 </br>
 
+<img src="images/xor_gate.PNG" width="300">
+
+<img src="images/block_gate.PNG" width="300">
+
 ![image of smaller block](images/xor_gate.PNG)
 ![image of bigger block](images/block_gate.PNG)
 
@@ -226,7 +236,15 @@ should make a truth table to derive the type of logic happening within these blo
 *but each pair of "car streams" corresponds to a bit being 0 or 1.* Here are the possibilities for both blocks with inputs on the top or to the left and the outputs being on the bottom or to the right.
 </br>
 
+<img src="images/xor_visual.PNG" width="300">
+
 ![image of smaller block](images/xor_visual.PNG)
+
+<img src="images/block_visual1.PNG" width="300">
+<img src="images/block_visual2.PNG" width="300">
+<img src="images/block_visual3.PNG" width="300">
+<img src="images/block_visual4.PNG" width="300">
+
 
 ![image of smaller block](images/block_visual1.PNG)
 ![image of smaller block](images/block_visual2.PNG)
@@ -266,7 +284,9 @@ should make a truth table to derive the type of logic happening within these blo
 
 Based on our truth tables above, we can see that the small block is simply an XOR gate. The bottom output of the bigger block is an XOR as well. The right output of the bigger block is a little more complicated. For this case, we can use a karnaugh map to determine the logic.
 
-![karnaugh map](images/karnaugh.PNG)
+<img src="images/karnaugh.png" width="300">
+
+![karnaugh map](images/karnaugh.png)
  
  </br>
  
