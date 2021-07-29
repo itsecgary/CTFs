@@ -254,7 +254,6 @@ should make a truth table to derive the type of logic happening within these blo
 | 1 | 0 | |  1  | 
 | 1 | 1 | |  0  |
 
-</br>
 
 #### Big Block     
 *outR = output on the right*
@@ -283,9 +282,10 @@ Based on our truth tables above, we can see that the small block is simply an XO
  With this logic in mind, we can take a look at the bigger picture again and see how this is all connected.
  
  </br>
- 
-<object data="full_game_board.pdf" type="application/pdf" width="100%">
-</object>
+
+![some discription](full_game_board.pdf) ...
+<image src="full_game_board.pdf"/> ...
+<embed src="full_game_board.pdf" type="application/pdf"> ...
 
 </br>
 
