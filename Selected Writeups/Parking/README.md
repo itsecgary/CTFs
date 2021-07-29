@@ -40,10 +40,8 @@ Redrawing...
 Redrawn.
 Saving...
 Saved.
-
 ```
 
-</br>
 
 <img src="images/writeup_image_1.PNG" width="500">
 
@@ -110,6 +108,8 @@ it's parsing these level files:
 </br>
 
 ```python
+# snippet from game.py
+
 boardfile = open(sys.argv[1]).read()
 header, boardfile = boardfile.split("\n", 1)
 W, H = [int(x) for x in header.split()]
@@ -172,7 +172,6 @@ Looking at the loop even further, we see that there are different values for `mo
 -1 ---> flag car (green)
  0 ---> wall (brown)
  1 ---> moving car (gray)
-
 ```
 
 Using this knowledge, we can do a quick search for how many instances of **-1**
@@ -402,6 +401,9 @@ Running this script will give us the flag! Once again, this was a really interes
 `CTF{2TheBr1m}`
 
 ## Resources
-[Z3 Repo](https://github.com/Z3Prover/z3)
+[Link to this writeup](https://github.com/itsecgary/CTFs/blob/master/Selected%20Writeups/Parking/README.md)
 
-[Z3 Guide](https://ericpony.github.io/z3py-tutorial/guide-examples.htm)
+[z3 Repo](https://github.com/Z3Prover/z3)
+
+[z3 Guide](https://ericpony.github.io/z3py-tutorial/guide-examples.htm)
+
