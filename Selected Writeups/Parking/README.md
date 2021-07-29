@@ -282,7 +282,7 @@ Based on our truth tables above, we can see that the small block is simply an XO
  
  </br>
 
-<p> <a href="full_game_board.PDF">Game board as circuit</a></p>
+<p> <a href="full_game_board.pdf">Game board as circuit</a></p>
 
 </br>
 
