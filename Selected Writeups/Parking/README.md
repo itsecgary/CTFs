@@ -395,7 +395,7 @@ print(flag)
 
 </br>
 
-Running this script will give us the flag! Once again, this was a really interesting challenge and I learned how to use a little bit of z3 as a result of this. Shoutout to 
+Running this script will give us the flag! Once again, this was a really interesting challenge and I learned how to use a little bit of z3 as a result of this. Shoutout to [novafacing](https://github.com/novafacing) and [Exaphis](https://github.com/Exaphis) for the support on this challenge.
 
 ## Flag
 `CTF{2TheBr1m}`
