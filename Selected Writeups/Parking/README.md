@@ -181,7 +181,7 @@ respectively. The red starting car is located in the bottom right of the game bo
 and the green flag cars are located on the left side of the game board (spread out
   along the side)!
 
-<img src="images/writeup_image_3.PNG" width="500">
+<img src="images/writeup_image_3.PNG" height="500">
 
 </br>
 
@@ -212,12 +212,9 @@ There are two elements we need to understand within this whole circuit.
 
 </br>
 
-<img src="images/xor_gate.PNG" width="500">
+<img src="images/xor_gate.PNG" height="500">
 
 <img src="images/block_gate.PNG" width="500">
-
-![image of smaller block](images/xor_gate.PNG)
-![image of bigger block](images/block_gate.PNG)
 
 </br>
 
@@ -230,12 +227,16 @@ should make a truth table to derive the type of logic happening within these blo
 *but each pair of "car streams" corresponds to a bit being 0 or 1.* Here are the possibilities for both blocks with inputs on the top or to the left and the outputs being on the bottom or to the right.
 </br>
 
-<img src="images/xor_visual.PNG" width="500">
+<img src="images/xor_visual.PNG" width="1000">
 
-<img src="images/block_visual1.PNG" width="500">
-<img src="images/block_visual2.PNG" width="500">
-<img src="images/block_visual3.PNG" width="500">
-<img src="images/block_visual4.PNG" width="500">
+<p float="left">
+	<img src="images/block_visual1.PNG" width="500">
+	<img src="images/block_visual2.PNG" width="500">
+</p>
+<p float="left">
+	<img src="images/block_visual3.PNG" width="500">
+	<img src="images/block_visual4.PNG" width="500">
+</p>
 
 </br>
 
